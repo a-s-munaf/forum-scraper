@@ -1,13 +1,11 @@
 # -*- coding: utf-8 -*-
 
-# Define here the models for your scraped items
 #
-# See documentation in:
-# http://doc.scrapy.org/en/latest/topics/items.html
-
+# Represents the message and relevant fields
 from scrapy import Item, Field
 
-class DmozItem(Item):
-    title = Field()
-    link = Field()
-    desc = Field()
+class ForumMessageItem(Item):
+    message = Field()
+    author = Field()
+    author_post_count = Field()
+    
