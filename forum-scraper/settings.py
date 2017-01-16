@@ -89,4 +89,4 @@ CONCURRENT_REQUESTS = 32
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-DUPEFILTER_CLASS = 'forum-scraper.filter.UniqueURLFilter'
+DUPEFILTER_CLASS = 'forum-scraper.filter.uniqueurlfilter.UniqueURLFilter'
